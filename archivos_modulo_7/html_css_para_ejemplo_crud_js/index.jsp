@@ -11,7 +11,7 @@
   <body>
     <div class="clsContenedor">
       <div>
-        <form class="clsFormulario" action="SvExperienciaAlta" method="POST">
+        <form class="clsFormulario" action="" method="">
           <h4>ALTA DE EXPERIENCIA LABORAL</h4>
           <input
             class="clsInput"
@@ -45,7 +45,7 @@
         </form>
       </div>
       <div>
-        <form class="clsFormulario" action="SvExperenciaEliminar" method="POST">
+        <form class="clsFormulario" action="" method="">
           <h4>BAJA DE EXPERIENCIA LABORAL</h4>
           <input
             class="clsInput"
@@ -57,6 +57,14 @@
           <button class="clsBotones" type="submit">BAJA</button>
         </form>
       </div>
+        <div>
+        <form class="clsFormulario" action="" method="">
+          <h4>LISTADO DE EXPERIENCIA LABORAL</h4>
+         
+          <button class="clsBotones" type="submit">LISTAR</button>
+        </form>
+      </div>
+        
     </div>
   </body>
 </html>
